@@ -6,4 +6,3 @@ const customElement = defineCustomElement(App)
 
 customElements.define('my-vue-element', customElement)
 
-// createApp(App).mount('#app')

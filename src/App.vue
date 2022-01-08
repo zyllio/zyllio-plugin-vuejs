@@ -1,12 +1,16 @@
-<template>ZYLLIO PLUGIN</template>
+<template>
+  <div>ZYLLIO PLUGIN {{ counter }} </div>
+</template>
 
 <script>
-
-  export const component = {
-    name: "App",
-    components: {},
-  }  
-
+export default {
+  name: "App",
+  data() {
+    return {
+      counter: 0,
+    };
+  },
+};
 </script>
 
 <style>
