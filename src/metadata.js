@@ -31,6 +31,11 @@ export const RatingMetadata = {
     name: 'Height',
     type: 'height',
     default: '30px'
-  }
+  }, {
+    id: '--color',
+    name: 'Color',
+    type: 'color',
+    default: '#fca311'
+  }  
   ]
 }
