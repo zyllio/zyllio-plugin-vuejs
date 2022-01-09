@@ -1,6 +1,6 @@
 # Zyllio Plugin VueJS : Counter
 
-This Zyllio plugin is a Chart Component implemented using [VueJS](https://v3.vuejs.org/)
+This Zyllio plugin is a Conter Component implemented using [VueJS](https://v3.vuejs.org/)
 
 # Demonstration
 
