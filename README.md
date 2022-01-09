@@ -1,8 +1,6 @@
 # Zyllio Plugin VueJS : Counter
 
-This Zyllio plugin is a Chart Component implemented using [ReactJS](https://reactjs.org/)
-
-This Component uses the Zyllio SDK Storage API to retrieve the Chart data
+This Zyllio plugin is a Chart Component implemented using [VueJS](https://v3.vuejs.org/)
 
 # Demonstration
 
@@ -16,7 +14,7 @@ To build this plugin, Node.js 14+ is required
 
 To experiment the plugin using pre-built Javasript file, install 
 install :
-> `https://zyllio.github.io/zyllio-plugin-reactjs/build/static/js/plugin.js`
+> `https://zyllio.github.io/zyllio-plugin-vuejs/dist/js/app.js`
 
 
 # Build
@@ -29,7 +27,7 @@ npm run build
 
 # Install
 
-Once built, only plugin.js file is to be installed within Zyllio Studio under Designer/Plugins panel
+Once built, only app.js file is to be installed within Zyllio Studio under Designer/Plugins panel
 
 # Fork this plugin
 
