@@ -4,7 +4,7 @@ const Icon = `
 </svg>
 `;
 
-export const RatingMetadata = {
+export const CounterMetadata = {
   id: 'custom-counter',
   icon: Icon,
   label: 'Counter',

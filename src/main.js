@@ -4,8 +4,8 @@
 import App from './App.vue'
 
 import { defineCustomElement } from 'vue'
-import { RatingMetadata } from './metadata'
+import { CounterMetadata } from './metadata'
 
 const customElement = defineCustomElement(App)
 
-zySdk.services.registry.registerComponent(RatingMetadata, customElement)
+zySdk.services.registry.registerComponent(CounterMetadata, customElement)
