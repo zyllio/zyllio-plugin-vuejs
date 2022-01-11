@@ -1,6 +1,6 @@
 {
-  "name": "Progressbar Component",
-  "description": "This plugins provides a nice Plugino theme",
+  "name": "VueJS Counter Component",
+  "description": "This plugins provides a VueJS Counter Component",
   "company": "Zyllio team",
   "icon": "https://studio.zyllio.com/assets/icon.png"
 }
