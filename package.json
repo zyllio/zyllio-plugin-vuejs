@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build && copyfiles -f src/plugin.json dist/js",
     "lint": "vue-cli-service lint",
     "deploy": "lt --port 5000"
   },
@@ -13,12 +13,13 @@
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@zyllio/zy-sdk": "^0.0.10",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
+    "@zyllio/zy-sdk": "^0.0.10",
     "babel-eslint": "^10.1.0",
+    "copyfiles": "^2.4.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
     "localtunnel": "^2.0.2"
