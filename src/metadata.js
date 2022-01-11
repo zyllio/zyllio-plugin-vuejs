@@ -7,9 +7,9 @@ const Icon = `
 export const CounterMetadata = {
   id: 'custom-counter',
   icon: Icon,
-  label: 'Counter',
-  category: 'Basics',
-  subCategory: 'Plugins',
+  label: 'VueJS Counter',
+  category: 'Plugins',
+  subCategory: 'Counters',
   hidden: false,
   keepRatio: false,
   properties: [{
