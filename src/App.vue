@@ -1,6 +1,6 @@
 <template>
   <!-- Must not have a single node for some reason  -->
-  <div class="counter" >Counter = {{ counter }}</div>
+  <div class="counter">Counter = {{ counter }}</div>
   <div></div>
 </template>
 
@@ -8,7 +8,6 @@
 /// <reference types="@zyllio/zy-sdk" />
 
 export default {
-  
   props: {
     dataValue: {
       type: String,
@@ -17,21 +16,22 @@ export default {
   },
   computed: {
     counter() {
-      const propertyValue = this.dataValue
-      const parsed = JSON.parse(propertyValue)
+      const propertyValue = this.dataValue;
+      const parsed = JSON.parse(propertyValue);
 
-      return parsed.value
-    }
-  }, 
-  styles: [`
-    .counter {
-      font-size: 40px;
-      color: var(--color);
-    }  
-  `]
+      return parsed.value;
+    },
+  }  
 };
+
 </script>
 
-
 <style scoped>
+
+.counter {
+  width: 100%;
+  height: 60px;
+  font-size: 40px;
+  color: var(--color);
+}
 </style>
