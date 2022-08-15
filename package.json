@@ -7,7 +7,6 @@
     "build": "vue-cli-service build && copyfiles -f src/plugin.json dist/js",
     "lint": "vue-cli-service lint",
     "tester": "zyllio ./dist/js app.js custom-counter"
-
   },
   "dependencies": {
     "core-js": "^3.6.5",
