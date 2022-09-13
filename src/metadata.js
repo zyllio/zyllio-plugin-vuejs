@@ -5,7 +5,7 @@ const Icon = `
 `;
 
 export const CounterMetadata = {
-  id: 'custom-counter',
+  id: 'custom-vuejs-counter',
   icon: Icon,
   label: 'VueJS Counter',
   category: 'Plugins',
