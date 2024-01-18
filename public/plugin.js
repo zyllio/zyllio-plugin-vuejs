@@ -6,7 +6,7 @@ const CounterComponent = defineCustomElement({
   emits: ['changed'],
   setup(props, ctx) {
 
-    const countProp = (props.count === 'undefined') ? 0 : props.count
+    const countProp = (isNaN(props.count)) ? 0 : props.count
 
     const count = ref(countProp)
 
@@ -31,8 +31,8 @@ const CounterComponent = defineCustomElement({
   template: `
     <label>{{ text }}</label>
     <div class="container">    
-    <div class="value" >{{ count }}</div>
-    <button @click="decrement()">-</button>
+      <div class="value" >{{ count }}</div>
+      <button @click="decrement()">-</button>
       <button @click="increment()">+</button>
     </div> 
   `,
