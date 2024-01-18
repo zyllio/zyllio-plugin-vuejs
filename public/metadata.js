@@ -10,13 +10,13 @@ export const CounterMetadata = {
   icon: '',
   label: 'Counter',
   category: 'Components',
-  subCategory: 'Input Fields',
+  subCategory: 'Basics',
   properties: [{
     id: 'count',
-    name: 'Variable',
+    name: 'Counter',
     type: 'number',
     tootip: ``,
-    default: '',
+    default: '0',
     main: true,
     write: true
   }, {
@@ -24,7 +24,7 @@ export const CounterMetadata = {
     name: 'Text',
     type: 'text',
     tootip: ``,
-    default: ''
+    default: 'My counter'
   }],
   styles: [
   ]
