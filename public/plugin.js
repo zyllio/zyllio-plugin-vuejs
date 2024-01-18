@@ -4,7 +4,7 @@ import { CounterMetadata } from './metadata.js'
 
 const CounterComponent = defineCustomElement({
   emits: ['changed'],
-  setup(props, ctx) {
+  setup(props) {
 
     const countProp = (isNaN(props.count)) ? 0 : props.count
 
@@ -72,7 +72,7 @@ const CounterComponent = defineCustomElement({
       color: #fff;
       border: none;
       border-radius: 50%;
-      font-size: 36px;
+      font-size: 30px;
       cursor: pointer;
     }
   `]
