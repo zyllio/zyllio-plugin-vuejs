@@ -26,6 +26,16 @@ export const CounterMetadata = {
     tootip: ``,
     default: 'My counter'
   }],
-  styles: [
-  ]
+  styles: [{
+    id: '--color',
+    name: 'Color',
+    type: 'color',
+    default: 'var(--theme-secondary-text-color)'
+  },
+  {
+    id: '--background-color',
+    name: 'Fill color',
+    type: 'background-color',
+    default: 'var(--theme-secondary-color)'
+  }]
 }

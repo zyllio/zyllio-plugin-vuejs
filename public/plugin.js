@@ -68,8 +68,8 @@ const CounterComponent = defineCustomElement({
       justify-content: center;
       width: 40px;
       height: 40px;
-      background-color: #3b873b;
-      color: #fff;
+      background-color: var(--background-color);
+      color: var(--color);
       border: none;
       border-radius: 50%;
       font-size: 30px;
