@@ -40,7 +40,7 @@ const CounterComponent = defineCustomElement({
     :host {
       display: flex;
       flex-direction: column;
-      color: #000;
+      color: var(--theme-text-color);
       font-size: 26px;
       padding: 10px;
     }  
