@@ -9,7 +9,7 @@ export const CounterMetadata = {
   icon: Icon,
   label: 'Counter',
   category: 'Components',
-  subCategory: 'Input Fields',
+  subCategory: 'Plugins',
   properties: [{
     id: 'count',
     name: 'Counter',
